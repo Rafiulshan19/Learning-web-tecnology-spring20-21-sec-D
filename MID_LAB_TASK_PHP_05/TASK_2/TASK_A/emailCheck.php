@@ -2,8 +2,8 @@
 	
 	if(isset($_POST['submit'])){
 
-		$name 	= $_POST['myname'];
-		if($name == ""){
+		$email 		= $_POST['email'];
+		if($email == ""){
 			echo "null submission...";
 		}else{
 			echo "success";
