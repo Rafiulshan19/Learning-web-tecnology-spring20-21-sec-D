@@ -1,0 +1,14 @@
+[
+	{
+		"name": "shan", 
+		"email": "shan@aiub.edu",
+		"username": "shan1",
+		"password": 123,
+		"repass": 123,
+		"gender": "male",
+		"day": 10,
+		"month": 11,
+		"year": 1999
+			
+	}
+]
