@@ -16,8 +16,21 @@
 #C {
 		background-color: #3c3c44;
 		width: 1200px;
-		height: 520px;
+		height: 730px;
 	}
+#CC {
+		position: absolute;
+		background-color: #e6e6e6;
+		top: 365px;
+		left: 365px;
+		width: 780px;
+		height: 690px;
+	}
+#CCC {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+}
 #D {
 		background-color: #e6e6e6;
 		width: 1200px;
@@ -73,10 +86,6 @@
 
 
 
-
-
-
-
 .b1 {
 		position: absolute;
 		top: 190px;
@@ -107,6 +116,56 @@
 	
 	
 	
+.c1 {
+		position: absolute;
+		top: 365px;
+		left: 100px;
+	}
+.c2 {
+		position: absolute;
+		top: 405px;
+		left: 100px;
+	}
+.c3 {
+		position: absolute;
+		top: 435px;
+		left: 100px;
+	}
+.c4 {
+		position: absolute;
+		top: 465px;
+		left: 100px;
+	}
+.c5 {
+		position: absolute;
+		top: 495px;
+		left: 100px;
+	}
+.c6 {
+		position: absolute;
+		top: 525px;
+		left: 100px;
+	}
+.c7 {
+		position: absolute;
+		top: 555px;
+		left: 100px;
+	}
+.c8 {
+		position: absolute;
+		top: 585px;
+		left: 100px;
+	}
+.c9 {
+		position: absolute;
+		top: 615px;
+		left: 100px;
+	}
+.c10 {
+		position: absolute;
+		top: 655px;
+		left: 100px;
+	}	
 	
 	
 	
