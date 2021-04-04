@@ -31,6 +31,32 @@
 		top: 0px;
 		left: 0px;
 }
+#CCCC {
+		position: absolute;
+		top: 670px;
+		left: 0px;
+}
+#Cpic {
+		position: absolute;
+		top: 25px;
+		left: 0px;
+}
+
+.p1 {
+		position: absolute;
+		top: 760px;
+		left: 100px;
+	}
+.p2 {
+		position: absolute;
+		top: 800px;
+		left: 100px;
+	}
+.p3 {
+		position: absolute;
+		top: 850px;
+		left: 100px;
+	}
 #D {
 		background-color: #e6e6e6;
 		width: 1200px;
