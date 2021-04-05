@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gendere</title>
+
+</head>
+<body>
+	<h1 id="myh1">Gender</h1>
+	<fieldset>
+			<legend>Gender</legend>
+				
+						<input type="radio" name="gender" value="male"> Male
+						<input type="radio" name="gender" value="female"> Female
+						<input type="radio" name="gender" value="other"> Other 
+			
+					<br>
+						
+
+		</fieldset>
+	<input type="button" name="" value="Submit" onclick="changeStyle()">
+
+
+	<script>
+		"use strict"
+
+		let name = "alamin";
+		
+		function changeVal(){
+			
+			document.getElementById('myh1').innerHTML = "test....";
+		}
+
+		function getName(){
+			const name = document.getElementById('name').value;
+
+			if(name == ""){
+				document.getElementById('myh1').innerHTML = "invalid data";
+			}else{
+				document.getElementById('myh1').innerHTML = name;
+			}
+		}
+
+		
+
+	</script>
+</body>
+</html>

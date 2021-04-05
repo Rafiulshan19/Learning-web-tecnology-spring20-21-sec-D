@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date of Birth</title>
+
+</head>
+<body>
+	<h1 id="myh1">Date of Birth</h1>
+	<fieldset>
+		<legend>Date of Birth</legend>
+			 <input type="date" name="dob" value=""> <br>
+			
+			<input type="submit" name="submit" value="Submit">
+			<br>
+	</fieldset>
+	<input type="button" name="" value="Submit" onclick="getName()">
+
+	
+
+	<script>
+		"use strict"
+		
+		let name = "";	
+
+		function getEmail(){
+			const name = document.getElementById('name').value;
+
+			if(name == ""){
+				document.getElementById('myh1').innerHTML = "invalid data";
+			}else{
+				document.getElementById('myh1').innerHTML = name;
+			}
+		}
+
+	
+		}
+
+	</script>
+</body>
+</html>

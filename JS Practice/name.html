@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Name</title>
+
+</head>
+<body>
+	<h1 id="myh1">Name</h1>
+	<input type="text" name="" id="name" onblur="getName()" /><br>
+	<input type="button" name="" value="Submit" onclick="getName()">
+
+	
+
+	<script>
+		"use strict"
+		
+		let name = "";	
+
+		function getName(){
+			const name = document.getElementById('name').value;
+
+			if(name == ""){
+				document.getElementById('myh1').innerHTML = "invalid data";
+			}else{
+				document.getElementById('myh1').innerHTML = name;
+			}
+		}
+
+	
+		}
+
+	</script>
+</body>
+</html>
